@@ -1,5 +1,5 @@
 
-### Efficient Warm Restart Projection Gradient Descent (EWR-PGD)
+# Efficient Warm Restart Projection Gradient Descent (EWR-PGD)
 
 We have developed a new white box adversarial attack algorithm that achieves the state-of-the-art attack performance and is more efficient than the current most advanced [ODI-PGD](https://github.com/ermongroup/ODS) algorithm.
 
