@@ -9,13 +9,13 @@ We have developed a new white box adversarial attack algorithm that achieves the
 * * *
 #### Comparison of the number of restart when EWR-PGD  and ODI-PGD methods reduce the models to the same accuracy
 
-EWR-PGD require fewer number of restart than ODI-PGD method when reducing the model to the same accuracy
+
 
 ![image](./imgs/result1.bmp)
 
 ![image](./imgs/result2.png)
 
-
+Figure 1. EWR-PGD require fewer number of restart than ODI-PGD method when reducing the model to the same accuracy
 
 * * *
 
