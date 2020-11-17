@@ -21,11 +21,13 @@ We propose a new white box adversarial attack method named EWR-PGD which exceeds
 Figure 1. On 10 state-of-the-art defense models, comparison of the number of restarts required (the lower the better) when the EWR-PGD and ODI-PGD method reduce the models to the same accuracy.
 
 The models are available online:
-[TRADES-Small Cnn, TRADES-WRN](https://github.com/yaodongyu/TRADES)
-[Mardy-WRN](https://github.com/MadryLab/cifar10_challenge)
-[MART-ResNet18, MART-WRN](https://github.com/YisenWang/MART)
-[FBTF-ResNet18](https://github.com/anonymous-sushi-armadillo/fast\_is\_better\_than\_free\_CIFAR10)
-We use the [pytorch ResNeXt101-DenoiseAll, ResNet152-Denoise, ResNet152-Baseline](https://github.com/TransEmbedBA/TREMBA)
+
+* [TRADES-Small Cnn, TRADES-WRN](https://github.com/yaodongyu/TRADES)
+* [Mardy-WRN](https://github.com/MadryLab/cifar10_challenge)
+* [MART-ResNet18, MART-WRN](https://github.com/YisenWang/MART)
+* [FBTF-ResNet18](https://github.com/anonymous-sushi-armadillo/fast\_is\_better\_than\_free\_CIFAR10)
+* [pytorch ResNeXt101-DenoiseAll, ResNet152-Denoise, ResNet152-Baseline(https://github.com/TransEmbedBA/TREMBA)
+
 * * *
 
 ### Results on 3 White-box leaderboards
