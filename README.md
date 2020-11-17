@@ -1,13 +1,16 @@
 
 
-# Efficient Warm Restart Projected Gradient Descent (EWR-PGD)
 
-We have developed a new white box adversarial attack algorithm that achieves the state-of-the-art attack performance and is more efficient than the current most advanced [ODI-PGD](https://github.com/ermongroup/ODS) algorithm.
 
-**[2020.8.15]** Our paper **EWR-PGD** will come soon, and the code will be released with the paper.
+## Efficient Warm Restart Projected Gradient Descent (EWR-PGD)
+
+We propose a new white box adversarial attack method named EWR-PGD which exceeds the state-of-the-art attacks performance. It is more efficient than the state-of-the-art [ODI-PGD](https://github.com/ermongroup/ODS) method.
+
+**Code will be available soon.**
 
 * * *
-#### Comparison of the number of restart when EWR-PGD  and ODI-PGD methods reduce the models to the same accuracy
+### Comparison of  EWR-PGD and ODI-PGD 
+**When reducing the models to the same accuracy, the number of restarts required by the EWR-PGD significantly less than that of the ODI-PGD. EWR-PGD is up to roughly 5 times faster than ODI-PGD.**
 
 
 
@@ -15,15 +18,21 @@ We have developed a new white box adversarial attack algorithm that achieves the
 
 ![image](./imgs/result2.png)
 
-Figure 1. EWR-PGD require fewer number of restart than ODI-PGD method when reducing the model to the same accuracy
+Figure 1. On 10 state-of-the-art defense models, comparison of the number of restarts required (the lower the better) when the EWR-PGD and ODI-PGD method reduce the models to the same accuracy.
 
+The models are available online:
+[TRADES-Small Cnn, TRADES-WRN](https://github.com/yaodongyu/TRADES)
+[Mardy-WRN](https://github.com/MadryLab/cifar10_challenge)
+[MART-ResNet18, MART-WRN](https://github.com/YisenWang/MART)
+[FBTF-ResNet18](https://github.com/anonymous-sushi-armadillo/fast\_is\_better\_than\_free\_CIFAR10)
+We use the [pytorch ResNeXt101-DenoiseAll, ResNet152-Denoise, ResNet152-Baseline](https://github.com/TransEmbedBA/TREMBA)
 * * *
 
-#### results  on White-box leaderboards
+### Results on 3 White-box leaderboards
 
-* EWR-PGD ranks first on the TRADES white-box MNIST and CIFAR-10 leaderboards, reducing the accuracy of their MNIST model to 92.52% and the accuracy of their CIFAR-10 model to 52.95%. EWR-PGD also ranks first on MardyLab’s White-box CIFAR-10 leaderboard, reducing the accuracy of their CIFAR-10 model to 43.96%.
+**EWR-PGD ranks first on the TRADES white-box MNIST and CIFAR-10 leaderboards, reducing the accuracy of their MNIST model to 92.52% and the accuracy of their CIFAR-10 model to 52.95%. EWR-PGD also ranks first on MardyLab’s White-box CIFAR-10 leaderboard, reducing the accuracy of their CIFAR-10 model to 43.96%.**
 
-Table 1. Accuracy under EWR-PGD and SOTA attack and corresponding complexity (The lower the accuracy of model classification, the better the attack algorithm)
+Table 1. Accuracy(the lower the better) under EWR-PGD and SOTA attacks and corresponding complexity.
 
 | dataset |model  | EWR-PGD   |EWR-PGD complexity | SOTA | SOTA complexity
 | --- | --- | --- | --- | --- | --- |
@@ -32,6 +41,11 @@ Table 1. Accuracy under EWR-PGD and SOTA attack and corresponding complexity (Th
 | CIFAR-10 | [Mardy-WRN](https://github.com/MadryLab/cifar10_challenge) | **43.96%** | **(5+100)×30**  | 43.99% | (10+150)×20 |
 
 * * *
+### Results on CIKM2020 Analyticup: Alibaba-Tsinghua Adversarial Challenge on Object Detection
 
-#### contact
+**EWR-PGD ranks first among 1701 teams in [CIKM2020 Analyticup: Alibaba-Tsinghua Adversarial Challenge on Object Detection](https://tianchi.aliyun.com/competition/entrance/531806/rankingList). Surpassing the runner-up approach by∼14% in terms of scores.**
+
+* * *
+
+### contact
 Please contact **liuye_ly94@163.com** if you have any question.Enjoy!
