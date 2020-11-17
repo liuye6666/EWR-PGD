@@ -26,7 +26,7 @@ The models are available online:
 * [Mardy-WRN](https://github.com/MadryLab/cifar10_challenge)
 * [MART-ResNet18, MART-WRN](https://github.com/YisenWang/MART)
 * [FBTF-ResNet18](https://github.com/anonymous-sushi-armadillo/fast\_is\_better\_than\_free\_CIFAR10)
-* [pytorch ResNeXt101-DenoiseAll, ResNet152-Denoise, ResNet152-Baseline(https://github.com/TransEmbedBA/TREMBA)
+* [pytorch ResNeXt101-DenoiseAll, ResNet152-Denoise, ResNet152-Baseline](https://github.com/TransEmbedBA/TREMBA)
 
 * * *
 
