@@ -45,7 +45,7 @@ Table 1. Accuracy(the lower the better) under EWR-PGD and SOTA attacks and corre
 * * *
 ### Results on CIKM2020 Analyticup: Alibaba-Tsinghua Adversarial Challenge on Object Detection
 
-**EWR-PGD ranks first among 1701 teams in [CIKM2020 Analyticup: Alibaba-Tsinghua Adversarial Challenge on Object Detection](https://tianchi.aliyun.com/competition/entrance/531806/rankingList). Surpassing the runner-up approach by∼14% in terms of scores.**
+**EWR-PGD ranks first among 1701 teams in [CIKM2020 Analyticup: Alibaba-Tsinghua Adversarial Challenge on Object Detection](https://tianchi.aliyun.com/competition/entrance/531806/rankingList?lang=en-us). Surpassing the runner-up approach by∼14% in terms of scores.**
 
 * * *
 
