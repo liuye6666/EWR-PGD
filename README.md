@@ -18,7 +18,7 @@ We propose a new white box adversarial attack method named EWR-PGD which exceeds
 
 ![image](./imgs/result2.png)
 
-Figure 1. On 10 state-of-the-art defense models, comparison of the number of restarts required (the lower the better) when the EWR-PGD and ODI-PGD method reduce the models to the same accuracy.
+Figure 1. On 10 state-of-the-art defense models, comparison of the number of restarts required(the lower the better) when the EWR-PGD and ODI-PGD methods reduce the models to the same accuracy.
 
 The models are available online:
 
