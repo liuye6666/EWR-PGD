@@ -38,7 +38,7 @@ Table 1. Accuracy(the lower the better) under EWR-PGD and SOTA attacks and corre
 
 | dataset |model  | EWR-PGD   |EWR-PGD complexity | SOTA | SOTA complexity
 | --- | --- | --- | --- | --- | --- |
-| MNIST  | [TRADES-SMN](https://github.com/yaodongyu/TRADES ) | **92.53$\pm$0.01%** | **(20+300)×800** | 92.58% | ------------- |
+| MNIST  | [TRADES-SMN](https://github.com/yaodongyu/TRADES ) | **92.53%$\pm$0.01%** | **(20+300)×800** | 92.58% | ------------- |
 | CIFAR-10 | [TRADES-WRN](https://github.com/yaodongyu/TRADES) | **52.98%$\pm$0.02%** |**(5+100)×30**  | 53.01% |  (10+150)×20 |
 | CIFAR-10 | [MadryLab-WRN](https://github.com/MadryLab/cifar10_challenge) | **43.98%$\pm$0.02%** | **(5+100)×30**  | 43.99% | (10+150)×20 |
 
