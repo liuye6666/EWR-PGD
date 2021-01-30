@@ -23,7 +23,7 @@ Figure 1. On 10 state-of-the-art defense models, comparison of the number of res
 The models are available online:
 
 * [TRADES-Small Cnn, TRADES-WRN](https://github.com/yaodongyu/TRADES)
-* [Mardy-WRN](https://github.com/MadryLab/cifar10_challenge)
+* [MadryLab-WRN](https://github.com/MadryLab/cifar10_challenge)
 * [MART-ResNet18, MART-WRN](https://github.com/YisenWang/MART)
 * [FBTF-ResNet18](https://github.com/anonymous-sushi-armadillo/fast\_is\_better\_than\_free\_CIFAR10)
 * [pytorch ResNeXt101-DenoiseAll, ResNet152-Denoise, ResNet152-Baseline](https://github.com/TransEmbedBA/TREMBA)
@@ -38,9 +38,9 @@ Table 1. Accuracy(the lower the better) under EWR-PGD and SOTA attacks and corre
 
 | dataset |model  | EWR-PGD   |EWR-PGD complexity | SOTA | SOTA complexity
 | --- | --- | --- | --- | --- | --- |
-| MNIST  | [TRADES-SMN](https://github.com/yaodongyu/TRADES ) | **92.52%** | **(20+300)×800** | 92.58% | ------------- |
-| CIFAR-10 | [TRADES-WRN](https://github.com/yaodongyu/TRADES) | **52.96%** |**(5+100)×30**  | 53.01% |  (10+150)×20 |
-| CIFAR-10 | [Mardy-WRN](https://github.com/MadryLab/cifar10_challenge) | **43.96%** | **(5+100)×30**  | 43.99% | (10+150)×20 |
+| MNIST  | [TRADES-SMN](https://github.com/yaodongyu/TRADES ) | **92.53$\pm$0.01%** | **(20+300)×800** | 92.58% | ------------- |
+| CIFAR-10 | [TRADES-WRN](https://github.com/yaodongyu/TRADES) | **52.98%$\pm$0.02%** |**(5+100)×30**  | 53.01% |  (10+150)×20 |
+| CIFAR-10 | [MadryLab-WRN](https://github.com/MadryLab/cifar10_challenge) | **43.98%$\pm$0.02%** | **(5+100)×30**  | 43.99% | (10+150)×20 |
 
 * * *
 ### Results on CIKM2020 Analyticup: Alibaba-Tsinghua Adversarial Challenge on Object Detection
